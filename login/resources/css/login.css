@@ -10,6 +10,14 @@
     display: none
 }
 
+.display-none {
+    display: none
+}
+
+.full-width {
+    width: 100%
+}
+
 /*IE compatibility*/
 .pf-c-form-control {
     width: 100%;
@@ -105,7 +113,7 @@
 }
 
 /* default - IE compatibility */
-.pf-m-primary {
+.pf-m-primary, .ikioma-button {
     color: #FFFFFF;
     background-color: #94ae3b;
     height: 46px;
@@ -349,6 +357,7 @@ ul#kc-totp-supported-apps {
     margin: 0;
     padding: 0;
     list-style: none;
+    flex-direction: column;
 }
 
 .kc-social-links a button, .link-button {
